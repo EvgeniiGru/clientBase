@@ -1,0 +1,161 @@
+
+
+.app{
+    margin: 2%;
+  }
+/*information client*/ 
+  .info_client{
+    margin-left: 5px;
+    border: var(--border);
+    background: var(--white);
+    resize: horizontal;
+    height: 96%;
+    display: grid;
+    grid-template-areas: "heading"
+    "list_info";
+    grid-template-rows: 40px auto;
+    border-radius: 1%;
+    box-shadow: #c0b9b9 0px 3px 4px 0px;
+  }
+  
+  .heading_info_client{
+    grid-area: heading;
+    display: grid;
+    background: var( --action-color);
+    color: var(--white);
+    align-items: center;
+    text-indent: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+  
+  .list_info_client{
+    grid-area: list_info;
+    padding: 0px;
+    margin: 5px;
+  }
+
+  .item_info_client{
+    list-style-type: none;
+    font-size: 14px;
+  }
+  
+  /*list client*/
+  .block_client{
+    margin-right: 5px;
+    border: var(--border);
+    background: var(--white);
+    resize: horizontal;
+    height: 96%;
+    border-radius: 1%;
+    display: grid;
+    grid-template-areas:"changeClient"
+    "tables";
+    grid-template-rows: 40px auto;
+    box-shadow:#c0b9b9 0px 3px 4px 0px ;
+  }
+
+  .change_client{
+    display: inline-flex;
+    grid-area: changeClient;
+    list-style-type: none;
+    background: var(--main_background);
+    border-radius: 5%;
+    align-items: center;
+  }
+
+  .item_change_client{
+    text-align: center;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border:none;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+  
+  .action{
+    border-bottom: 2px solid var(--action-color);
+    color: var(--action-color);
+  }
+
+  .list_client{
+    grid-area: tables;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .head_item_client{
+    background:var(--main_background);
+  }
+  .item_client{
+    list-style-type: none;
+    display: grid;
+    grid-template-areas: "number FIO bedNumber";
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    height: 30px;
+    border-bottom: var(--border);
+    align-items: center;
+    text-indent: 2%;
+  }
+
+  .head{
+    color:grey;
+  }
+
+    .item_id{
+        display: grid;
+        grid-area:number;
+    }
+    .item_name{
+        display: grid;
+        grid-area:FIO;
+    }
+    .item_bedNumber{
+        display: grid;
+        grid-area:bedNumber;
+    }
+
+.item_action{
+    border-left: 2px solid var(--action-color);
+    background:var(--main_background);
+}
+  /* option for resize */
+  .Resizer {
+    background:var(--main_background);
+    opacity: 0;
+    z-index: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+  }
+  
+  .Resizer.vertical {
+    width: 1vw;
+    cursor: col-resize;
+    height: 96%;
+  }
+  
+  .Resizer.disabled {
+    cursor: not-allowed;
+  }
+  .Resizer.disabled:hover {
+    border-color: transparent;
+  }
+
+/* Info client */
+
+
+
+
+/* List client */
+
+
+
+
