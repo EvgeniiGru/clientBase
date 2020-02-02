@@ -55,15 +55,7 @@ let initialization = {
         diagnosis: "dreqstqv",
         cause: "gtdi"
     }],
-    presentItem: {
-        historyNumber: 230,
-        firstName: "jtrescgb",
-        lastName: "mgvnyjve",
-        patrName: "jfzirkwh",
-        birthDate: "1952-02-11",
-        diagnosis: "rpzcolmd",
-        bedNumber: 119
-    },
+    presentItem: {},
     quttingItem: {}
 };
 
